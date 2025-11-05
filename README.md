@@ -7,7 +7,7 @@
 **Goal:** Build a solid foundation in syntax, types, and core Go concepts.
 
 ### Day 1
-- [ ] Install Go & set up workspace (`go env`, `GOPATH`)
+- [ X ] Install Go & set up workspace (`go env`, `GOPATH`)
 - [ ] Learn Go compilation & running (`go run`, `go build`)
 - [ ] Explore [Tour of Go — Basics](https://go.dev/tour/basics/1)
 - [ ] 🧠 **Project:** Print “Hello, Amirreza” and current time.

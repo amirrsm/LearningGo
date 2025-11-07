@@ -8,12 +8,12 @@
 
 ### Day 1
 - [X] Install Go & set up workspace (`go env`, `GOPATH`)
-- [ ] Learn Go compilation & running (`go run`, `go build`)
-- [ ] Explore [Tour of Go — Basics](https://go.dev/tour/basics/1)
-- [ ] 🧠 **Project:** Print “Hello, Amirreza” and current time.
+- [X] Learn Go compilation & running (`go run`, `go build`)
+- [X] Explore [Tour of Go — Basics](https://go.dev/tour/basics/1)
+- [X] 🧠 **Project:** Print “Hello, Amirreza” and current time.
 
 ### Day 2
-- [ ] Learn variables, constants, and zero values
+- [X] Learn variables, constants, and zero values
 - [ ] Explore arrays, slices, and maps
 - [ ] 🧠 **Mini Project:** CLI that counts word frequency in a string
 

@@ -1,0 +1,14 @@
+------------- Start learning GoLang -------------
+
+for creating project, We could use:
+* go mod init <NAME>
+
+for build and save final runable file we could use:
+* go install
+    this command create <NAME>.exe file and store it in go HOME_DIR
+
+compile and build file in relevant destination:
+* go build
+
+compile project and store it in temp file, after that run file and at the end, delete temp compiled file.
+* go run main.go

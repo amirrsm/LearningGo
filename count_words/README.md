@@ -1,5 +1,5 @@
 # Word Counter
-firs mini project for learning `GoLang`.
+First mini project for learning `GoLang`.
 
 A simple Go program that counts word occurrences in text. This program offers two modes of operation:
 1. Count words from standard input

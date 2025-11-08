@@ -26,7 +26,6 @@ func countWordsInLine(line string, words *map[string]int) {
 func HandleStdin() (words map[string]int) {
 	fmt.Println("\nStart write your text here(Press Ctrl+D to end input):")
 
-	words = make(map[string]int)
 	sc := bufio.NewReader(os.Stdin)
 	for {
 		input_line, err := sc.ReadString('\n')
@@ -39,6 +38,7 @@ func HandleStdin() (words map[string]int) {
 	return
 }
 
-func HandleFile(filename string) {
-	// Implementation for handling word count from a file
+func HandleFile(filename string) (words map[string]int) {
+	// TODO: Implement file reading and word counting logic.
+	return
 }

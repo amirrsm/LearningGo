@@ -14,12 +14,12 @@
 
 ### Day 2
 - [X] Learn variables, constants, and zero values
-- [ ] Explore arrays, slices, and maps
+- [X] Explore arrays, slices, and maps
 - [ ] 🧠 **Mini Project:** CLI that counts word frequency in a string
 
 ### Day 3
-- [ ] Study control structures: `if`, `for`, `switch`
-- [ ] Learn about functions (multiple return values)
+- [X] Study control structures: `if`, `for`, `switch`
+- [X] Learn about functions (multiple return values)
 - [ ] 🧠 **Mini Project:** Simple calculator CLI (+, -, *, /)
 
 ### Day 4

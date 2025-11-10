@@ -1,16 +1,20 @@
 package main
 
-import "fmt"
-import "count_words/handlers"
+import (
+	"count_words/handlers"
+	"fmt"
+	"os"
+)
 
 func main() {
-	fmt.Println("Please select mode:")
+	fmt.Println("Please Coose:")
 	fmt.Println("1. Count words from standard input (stdin)")
 	fmt.Println("2. Count words from a text file")
+	fmt.Println("3. Exit")
 
 	var choice int
 	for {
-		fmt.Print("Enter 1 or 2: ")
+		fmt.Print("Enter your choice(number): ")
 		_, err := fmt.Scan(&choice)
 		if err != nil {
 			fmt.Println("Invalid input. Please enter 1 or 2.")
@@ -39,6 +43,9 @@ func main() {
 			for word, count := range words {
 				fmt.Printf("%s: %d\n", word, count)
 			}
+		case 3:
+			fmt.Println("End.")
+			os.Exit(0)
 		default:
 			fmt.Println("Invalid choice. Please enter 1 or 2.")
 		}

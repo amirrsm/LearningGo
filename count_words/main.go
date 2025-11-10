@@ -20,6 +20,7 @@ func main() {
 		switch choice {
 		case 1:
 			words := handlers.HandleStdin()
+
 			fmt.Println("\nWord Count Results:")
 			for word, count := range words {
 				fmt.Printf("%s: %d\n", word, count)
@@ -32,7 +33,12 @@ func main() {
 				fmt.Println("Invalid filename.")
 				continue
 			}
-			handlers.HandleFile(filename)
+
+			words := handlers.HandleFile(filename)
+			fmt.Println("\nWord Count Results:")
+			for word, count := range words {
+				fmt.Printf("%s: %d\n", word, count)
+			}
 		default:
 			fmt.Println("Invalid choice. Please enter 1 or 2.")
 		}

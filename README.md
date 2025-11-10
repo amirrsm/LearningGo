@@ -10,12 +10,12 @@
 - [X] Install Go & set up workspace (`go env`, `GOPATH`)
 - [X] Learn Go compilation & running (`go run`, `go build`)
 - [X] Explore [Tour of Go — Basics](https://go.dev/tour/basics/1)
-- [X] 🧠 **Project:** Print “Hello, Amirreza” and current time.
+- [X] 🧠 **Project:** Print “Hello, Amirreza” and the current time.
 
 ### Day 2
 - [X] Learn variables, constants, and zero values
 - [X] Explore arrays, slices, and maps
-- [ ] 🧠 **Mini Project:** CLI that counts word frequency in a string
+- [X] 🧠 **Mini Project:** CLI that counts word frequency in a string
 
 ### Day 3
 - [X] Study control structures: `if`, `for`, `switch`
